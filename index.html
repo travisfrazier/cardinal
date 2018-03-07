@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding Evaluation</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+  <!-- Main Header  -->
+  <header>
+    <div class="header-container">
+      <figure>
+          <img src="./assets/logos/logo-cardinal.png" alt="Cardinal Solutions Logo">
+      </figure>
+      <div class="slogan-message">
+        <p>Enjoy the proven success of our experience.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="services-container">
+      <div class="service">
+        <img src="./assets/icons/icon-bi.svg">
+        <div class="service-elements-container">
+          <h2>Business Intelligence</h2>
+          <p>We use technology to turn data into knowledge that can help you manage 
+            and monitor your business, from anywhere.
+          </p>
+        </div>
+      </div>
+      <div class="service">
+          <img src="./assets/icons/icon-appdev.svg">
+          <div class="service-elements-container">
+            <h2>App Development</h2>
+            <p>Our mobile specialists work to create rich, easy-to-use consumer or enterprise
+              experiences for IOS, Android.
+            </p>
+          </div>
+      </div>
+      <div class="service">
+          <img src="./assets/icons/icon-ba.svg">
+          <div class="service-elements-container">
+            <h2>Business Analysis</h2>
+            <p>Great strategy begins with listening. We learn about businesses from the
+              inside out, and then propose improvements.
+            </p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Clients Section -->
+  <section class="clients">
+      <div class="client-message">
+        <h3>Our Clients</h3>
+        <p>Over the years our team has had the distinction of working with variety of brands
+          in different industries. Here is a short list of some of the names we have worked with.
+        </p>
+      </div>
+      <div class="client">
+        <img src="./assets/logos/logo-fifththird.png">
+      </div>
+      <div class="client">
+        <img src="./assets/logos/logo-chhn.png">
+      </div>
+      <div class="client">
+        <img src="./assets/logos/logo-chs.png">
+      </div>
+      <div class="client">
+        <img src="./assets/logos/logo-skanska.png">
+      </div>
+      <div class="client">
+        <img src="./assets/logos/logo-p&amp;g.png">
+      </div>
+      <div class="client">
+        <img src="./assets/logos/logo-rackroom.png">
+      </div>
+  </section>
+
+  <!-- Client One Section -->
+  <section class="clientOne">
+    <div class="clientOne-container">
+      <figure>
+        <img src="./assets/images/pic-gojo.png">
+      </figure>
+      <div class="clientOne-content">
+        <h3>Gojo</h3>
+        <h4>INTERNET OF THINGS</h4>
+        <p>Reducing the spread of hospital infections with the Internet of Things.</p>
+        <a href="https://www.gojo.com/en"><button>Learn More</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Two Section -->
+  <section class="clientTwo">
+    <div class="clientTwo-container">
+      <figure>
+        <img src="./assets/images/pic-fifththird.png">
+      </figure>
+      <div class="clientTwo-content">
+        <h3>Fifth Third Bank</h3>
+        <h4>MOBILE APP</h4>
+        <p>Reimagine what a mobile banking experience should be, 
+          focusing on the user rather than the technology.
+        </p>
+        <a href="https://itunes.apple.com/us/app/fifth-third-mobile-banking/id468738585?mt=8"><button>View App</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Three Section -->
+  <section class="clientThree">
+    <figure>
+      <img src="./assets/images/pic-chhn.png">
+    </figure>
+    <div class="clientThree-content">
+      <h3>The Christ Hospital Health Network</h3>
+      <h4>DIGITAL PLATFORM</h4>
+      <p>A digital front door to the finest patient experiences.</p>
+      <a href="https://www.thechristhospital.com/"><button>Learn More</button></a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact-upper">
+      <h3>Connect With Us</h3>
+      <p>Have a question or just want to chat? Get in touch.</p>
+      <form name="contactForm" onsubmit="return formValidate()" method="post">
+        <div class="form-content">
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="email" id="mail" name="email" placeholder="Email">
+          <textarea id="comment" name="message" placeholder="Message"></textarea>
+        </div>
+        <button href="#" type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="border"></div>
+    <div class="contact-lower">
+      <h5>For inqueries, please contact:</h5>
+      <p>Tracy Thompson</p>
+      <p>tthompson@cardinalsolutions.com</p>
+      <p class="number">704.936.4444</p>
+      <h5>Come by our office</h5>
+      <p>222 S. Church St. Suite 500, Charlotte, NC 28202</p>
+      <div id="google-map"></div>
+      <a href="https://goo.gl/maps/koN29XjgZAs">Find parking on our map!</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2016 Cardinal Solutions. All rights reserved.</p>
+    <div class="social">
+      <a href="https://twitter.com/CardinalNow?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="./assets/icons/icon-twitter.svg"></a>
+      <a href="https://www.facebook.com/cardinalsolutions/"><img src="./assets/icons/icon-facebook.svg"></a>
+      <a href="https://plus.google.com/+Cardinalsolutions"><img src="./assets/icons/icon-g+.svg"></a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="./assets/js/custom.js"></script>
+  <!-- Google Maps API Key -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC86r6Wc5kAeuvTYYQMxiH4nNCNzt2Fs70&callback=initMap"></script>
+</body>
+</html>
